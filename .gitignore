@@ -1,6 +1,17 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
+=======
+data
+models
+reports
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+>>>>>>> b13c715 (pipeline ready with all components)
 *$py.class
 
 # C extensions
@@ -46,7 +57,11 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
+<<<<<<< HEAD
 *.py.cover
+=======
+*.py,cover
+>>>>>>> b13c715 (pipeline ready with all components)
 .hypothesis/
 .pytest_cache/
 cover/
@@ -94,18 +109,22 @@ ipython_config.py
 #   install all needed dependencies.
 #Pipfile.lock
 
+<<<<<<< HEAD
 # UV
 #   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
 #   commonly ignored for libraries.
 #uv.lock
 
+=======
+>>>>>>> b13c715 (pipeline ready with all components)
 # poetry
 #   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
 #   commonly ignored for libraries.
 #   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
 #poetry.lock
+<<<<<<< HEAD
 #poetry.toml
 
 # pdm
@@ -124,6 +143,19 @@ ipython_config.py
 #   in the .venv directory. It is recommended not to include this directory in version control.
 .pixi
 
+=======
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/latest/usage/project/#working-with-version-control
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+>>>>>>> b13c715 (pipeline ready with all components)
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
 
@@ -136,7 +168,10 @@ celerybeat.pid
 
 # Environments
 .env
+<<<<<<< HEAD
 .envrc
+=======
+>>>>>>> b13c715 (pipeline ready with all components)
 .venv
 env/
 venv/
@@ -173,6 +208,7 @@ cython_debug/
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+<<<<<<< HEAD
 #.idea/
 
 # Abstra
@@ -205,3 +241,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+#.idea/
+>>>>>>> b13c715 (pipeline ready with all components)
